@@ -1,0 +1,222 @@
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+}
+html{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #9E9E9E;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #3e3e3e;
+  overflow-x: hidden;
+}
+
+body :focus {
+  outline: none;
+}
+
+button:focus {
+  outline: 5px auto transparent;
+}
+section{
+  padding: 100px 0 100px;
+}
+.fixed-top {
+  position: absolute;
+  
+}
+.navbar {
+  background: #262126e8;
+  top: 2rem;
+  right: 5rem;
+  width: 100%;
+color: #fff;
+  top: 0rem;
+  box-shadow: 0 0 10px #00000073;
+}
+
+
+.navbar-nav .nav-link {
+  padding-right: 1.5rem !important;
+  color: #171717;
+}
+
+.navbar-brand img {
+  width: 40%;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-banner__content {
+  position: relative;
+}
+
+.main-banner__img {
+  width: 100%;
+  height: 100vh;
+}
+
+.mask {
+  position: absolute;
+  /* background: #ff000038; */
+  right: 0;
+  left: 0;
+  height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn-login{
+  border: 5px solid #C9194F;
+  padding: 3px;
+  border-radius: 10px;
+  background: #fff;
+  color: #040404;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-login:hover{
+  color: #C9194F;
+}
+
+.main-banner__text {
+  position: absolute;
+  top: 40%;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.line{
+  border: 5px solid #C9194F;
+  padding: 50px;
+  border-radius: 10px;
+  background: #514c4dd4;
+}
+
+.line p{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.main-banner__text h1 {
+  font-weight: bold;
+ font-size: 3rem;
+}
+
+.slick-dots {
+  padding-left: 4rem;
+  bottom: 10px;
+}
+
+.title-site{
+  color: #E70F47;
+
+  font-weight: bold;
+}
+
+.title-site span{
+font-weight: 200;
+}
+
+.title-site p{
+  font-size: 2rem;
+}
+
+.fa-sign-in{
+  font-size: 1rem!important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  font-size: 15px;
+}
+
+
+.slick-dots li button:before {
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn-custom {
+  background: #bf2176;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #bf2176;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(232, 2, 101, 0.12);
+}
+
+.content-nav{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.content-nav .logo-brand{
+  text-align: center;
+  width: 100%;
+}
+
+.content-nav .fa{
+  font-size: 1.5rem;
+  color: #fff;
+}
+.content-nav .fa:hover{
+
+  color: #E70F47;
+}
+
+.content-nav li{
+  padding-right: 12px;
+}
+
+.login{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 110px;
+  text-align: center;
+}
+
+.login .fa{
+  margin-right: 5px;
+}
+
+.login:hover{
+  color: #E70F47;
+}
