@@ -99,6 +99,11 @@ color: #fff;
   color: #C9194F;
 }
 
+.title-site p:hover {
+  color:  #C9194F!important;
+
+}
+
 .main-banner__text {
   position: absolute;
   top: 40%;
